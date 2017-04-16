@@ -1,17 +1,12 @@
 <?php
 /**
- * The main template file
+ * The template for displaying the footer
  *
  * @package WordPress
  * @subpackage Unelma
  * @since Unelma 1.0
  */
-get_header(); ?>
+?>
 
-
-
-<?php get_footer(); ?>
-
-
- 
-
+</body>
+</html>
