@@ -28,21 +28,22 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+	<div id="page" class="hfeed site">
 
-<!-- Header -->
-<header id="masthead" class="site-header" role="banner">
-<!-- Site name -->
-<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<!-- Header -->
+		<header id="masthead" class="site-header" role="banner">
+			<!-- Site name -->
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-<!-- Search form -->
-<div id="search-container" class="search-box-wrapper hide">
-<div class="search-box">
-<?php get_search_form(); ?>
-</div>
-</div>
-<!-- Menu -->
-<nav id="primary-navigation" class="site-navigation" role="navigation">
-<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-</nav>
-</header><!-- #masthead -->
+			<!-- Search form -->
+			<div id="search-container" class="search-box-wrapper hide">
+				<div class="search-box">
+					<?php get_search_form(); ?>
+				</div>
+			</div>
+			<!-- Menu -->
+			<nav id="primary-navigation" class="site-navigation" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+			</nav>
+		</header><!-- #masthead -->
+		<div id="content" class="site-content">
