@@ -68,6 +68,7 @@ get_header(); ?>
 			<?php endif; ?>
 		<?php endif; ?>	
 	</div><!-- .content-area -->
-	
+
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 

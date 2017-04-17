@@ -16,7 +16,6 @@
 <!--[if !(IE 7) | !(IE 8) ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
-<div id="sidebar" class="sidebar">
 	<head>
 	   <meta charset="<?php bloginfo( 'charset' ); ?>">
 	   <meta name="viewport" content="width=device-width">
@@ -26,8 +25,7 @@
 	   <link rel='stylesheet' id='main-style' href='<?php echo get_stylesheet_uri(); ?>' type='text/css' media='all' />
 	   <?php wp_head(); ?>
 	</head>
-	<?php get_sidebar(); ?>
-</div><!-- .sidebar -->
+
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
