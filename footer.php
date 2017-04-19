@@ -11,7 +11,9 @@
 	<!-- Site footer -->
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'Unelma' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'Unelma' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'unelma' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'unelma' ), 'WordPress' ); ?></a>
+			</br>
+			<a href="<?php echo esc_url( __( 'http://unelma.ru/', 'unelma' ) ); ?>"><?php echo esc_html( __( 'Theme Unelma' )); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
