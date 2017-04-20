@@ -27,7 +27,7 @@
 		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<!-- Menu -->
 		<nav id="primary-navigation" class="site-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'top', 'menu_class' => 'top-menu' ) ); ?>
 		</nav>
 	</header><!-- #masthead -->
 	<div id="content" class="site-content">

@@ -31,6 +31,12 @@ function unelma_setup() {
 	 * to change 'unelma' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'unelma', get_template_directory() . '/languages' );
+	
+	// This theme uses wp_nav_menu() in one location.
+	register_nav_menus( array(
+		'top'    => __( 'Top Menu', 'unelma' ),
+	) );
+
 
 }
 endif; // unelma_setup
