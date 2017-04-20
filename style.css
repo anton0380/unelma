@@ -34,3 +34,16 @@ section {
 	display: block;
 }
 
+.content-area {
+	background-color: bisque;
+	width:70%;
+	float:right;
+	padding:30px 15px 0;
+}
+
+.site-footer {
+	width: 100%;
+	clear: both;
+	background-color: palegreen;
+}
+
