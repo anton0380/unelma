@@ -28,6 +28,7 @@
 		<!-- Menu -->
 		<nav id="primary-navigation" class="site-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'top', 'menu_class' => 'top-menu' ) ); ?>
+			<div class="navigation-footer"></div>
 		</nav>
 	</header><!-- #masthead -->
 	<div id="content" class="site-content">
